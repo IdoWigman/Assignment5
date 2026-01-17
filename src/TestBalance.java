@@ -7,7 +7,7 @@ public class TestBalance {
         BankAccount BA2 = new BankAccount("BeBron", 2, 1000);
         BankAccount BA3 = new BankAccount("Cobe", 3, 1500);
         BankAccount BA4 = new BankAccount("Dhaq", 4, 4000);
-        BankAccount BA5 = new BankAccount("Eeni", 5, 8000);
+        BankAccount BA5 = new BankAccount("eeni", 5, 8000);
         Comparator<BankAccount> compByNum = new AccountComparatorByNumber();
         Comparator<BankAccount> compByName = new AccountComparatorByName();
         BankAccountsBinarySearchTree byNumTreeUnbalanced = new BankAccountsBinarySearchTree(compByNum);
