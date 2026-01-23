@@ -9,7 +9,7 @@ public class FilterByBalance implements Filter<BankAccount>{
 	 */	
 	public FilterByBalance(int balanceThreshold) {
 		// ---------------write your code BELOW this line only! ------------------
-		this .balanceThreshold = balanceThreshold;
+		this.balanceThreshold = balanceThreshold;
 		// ---------------write your code ABOVE this line only! ------------------
 	}
 
